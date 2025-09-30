@@ -1,0 +1,15 @@
+[project]
+name = "ngocson-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "docx>=0.2.4",
+    "fastapi>=0.118.0",
+    "groq>=0.32.0",
+    "numpy>=2.3.3",
+    "openai>=1.109.1",
+    "pydantic-settings>=2.11.0",
+    "pypdf2>=3.0.1",
+]
